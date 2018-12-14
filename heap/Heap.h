@@ -8,6 +8,7 @@ private:
 	// T* table[N] = {nullptr};
 public:
 	T* table[N] = {nullptr};
+	unsigned int count;
 
 	Heap();
 	~Heap();
